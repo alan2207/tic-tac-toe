@@ -1,0 +1,106 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #1d3863;
+  min-width: 800px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Londrina Sketch', cursive;
+  color: white;
+  margin-top: 100;
+  font-size: 100px;
+}
+
+.container {
+  width: 800px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#menu {
+  border-radius: 10px;
+  background-color: #547ab7;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  border: 10px solid black;
+}
+
+#menu > h2 {
+  width: 100px;
+  display: inline-block;
+  margin: 50px;
+  font-size: 100px;
+  cursor: pointer;
+}
+
+#multiplayer {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.playerMenu:hover{
+  color: white;
+}
+
+#multiplayer:hover {
+  color: white;
+}
+
+.board {
+  display: none;
+  font-family: 'Londrina Sketch', cursive;
+  color: white;
+  border: 1px solid black;
+  border-collapse: collapse;
+  position: absolute;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 420px;
+  height: 420px;
+  background: #fcfff4;
+background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+background: -webkit-linear-gradient(top, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%);
+background: linear-gradient(to bottom, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+}
+
+.field {
+  background-color: #1d3863;
+  border: 8px solid white;
+  height: 130px;
+  width: 130px;
+  text-align: center;
+  font-size: 90px;
+}
+
+.available:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+#tracker {
+  border: 3px solid black;
+  background-color: #f96961;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#tracker > h4 {
+  display: inline-block;
+  margin: 10px;
+}
